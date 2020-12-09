@@ -84,4 +84,27 @@ export default [
         }]
     },
 
+    // Search
+    {
+        path: '/search',
+        name: 'Search',
+        component: () => import('../components/views/Search')
+    },
+    {
+        path: '/:user',
+        component: () => import('../components/views/articles/Column'),
+        children: [
+            {
+                path: '',
+                name: 'Column',
+                component: () => import('../components/views/articles/List.vue')
+            },
+            {
+                path: '/articles/:articleId/content',
+                name: 'Content',
+                component: () => import('../components/views/articles/Content.vue')
+            }
+        ]
+    },
+
 ]
