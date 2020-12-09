@@ -15,7 +15,8 @@ export const computedArticles = (state) => {
             this.uavatar = userAvatar
         } else {
             // 不是当前用户时，设置用户数据为对象里用户的信息
-            this.uavatar = `${avatarUrl}${this.uname}`
+            //this.uavatar = `${avatarUrl}${this.uname}`
+            this.uavatar = `https://cdn.learnku.com//uploads/communities/hIZjRRdF8oVYZy69XJnT.png!/both/44x44`
         }
     }
 

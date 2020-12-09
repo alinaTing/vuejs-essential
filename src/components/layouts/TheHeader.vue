@@ -46,7 +46,7 @@
         data() {
             return {
                 logo: {
-                    src: `${this.uploadsUrl}sites/ByvFbNlQYVwhvTyBgLdqitchoacDNznN.jpg`,
+                    src: `https://cdn.learnku.com//uploads/communities/hIZjRRdF8oVYZy69XJnT.png!/both/44x44`,
                     title: 'Learnku Vue.js'
                 },
                 navList: ['社区', '头条', '问答', '教程'],

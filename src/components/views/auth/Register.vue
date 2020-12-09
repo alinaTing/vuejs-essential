@@ -83,7 +83,8 @@
                     const user = {
                         name: this.username,
                         password: this.password,
-                        avatar: `https://api.adorable.io/avatars/200/${this.username}.png`
+                        //avatar: `https://api.adorable.io/avatars/200/${this.username}.png`
+                        avatar: `https://cdn.learnku.com//uploads/communities/hIZjRRdF8oVYZy69XJnT.png!/both/44x44`
                     }
                    // const localUser = ls.getItem('user')
                     const localUser = this.$store.state.user
